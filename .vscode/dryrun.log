@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/gustavo/Documentos/ESTRUTURA DADOS/clinica'
+gcc -Wall -Wextra -std=c11 -pedantic main.c lista_encadeada.c lista_circular.c fila_pacientes.c pilha.c -o clinica
+make: Leaving directory '/home/gustavo/Documentos/ESTRUTURA DADOS/clinica'
+ 
